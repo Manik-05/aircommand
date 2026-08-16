@@ -1,0 +1,19 @@
+name: aircommand
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mediapipe
+      - opencv-python
+      - numpy
+      - scikit-learn
+      - dtaidistance
+      - fastapi
+      - uvicorn[standard]
+      - websockets
+      - pydantic
+      - pynput
+      - pytest
+      - pytest-asyncio

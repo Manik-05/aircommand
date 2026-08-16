@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# conda/venv
+.venv/
+env/
+
+# data (recorded samples, trained models - not committed)
+backend/data/
+data/
+*.pt
+*.pkl
+*.bin
+
+# Node / dashboard
+node_modules/
+dashboard/dist/
+dashboard/.vite/
+
+# misc
+.DS_Store
+.vscode/
+.idea/
+*.log
